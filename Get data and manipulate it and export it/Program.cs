@@ -84,10 +84,10 @@ namespace Get_data_and_manipulate_it_and_export_it
                 tl.SetCellStyle(1, 7, style);
                 tl.SetCellStyle("G6", style);
                 //设置EXCEL属性
-                tl.DocumentProperties.Creator = "Kylie";
+                tl.DocumentProperties.Creator = "ZhouL";
                 tl.DocumentProperties.ContentStatus = "Secret";
-                tl.DocumentProperties.Title = "Bali tryst with hubby";
-                tl.DocumentProperties.Description = "Secret trip plan to Bali with Randy";
+                tl.DocumentProperties.Title = "Random number table";
+                tl.DocumentProperties.Description = "Get data and manipulate it and export it";
                 tl.SaveAs("MiscellaneousModified.xlsx");
 
             }
